@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 interface RegisterProps {
     username: string;
@@ -7,9 +8,12 @@ interface RegisterProps {
 }
 
 export default function Register({ username, setUsername, setIsRegistered }: RegisterProps) {
+    const [loading, setLoading] = useState(false);
     const API_BASE_URL = "https://globetrotter-game-4wkh.onrender.com/api";
+
     const handleRegister = async (e: React.FormEvent) => {
         e.preventDefault();
+        setLoading(true);
         try {
             const response = await fetch(`${API_BASE_URL}/register`, {
                 method: "POST",
@@ -21,6 +25,8 @@ export default function Register({ username, setUsername, setIsRegistered }: Reg
             else alert("Username is already taken!");
         } catch (error) {
             console.error("Registration failed:", error);
+        } finally {
+            setLoading(false);
         }
     };
 
@@ -37,9 +43,13 @@ export default function Register({ username, setUsername, setIsRegistered }: Reg
                         onChange={(e) => setUsername(e.target.value)}
                         required
                     />
-                    <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}
-                        className="w-full bg-purple-500 text-white py-3 rounded-lg font-semibold text-lg hover:bg-purple-600">
-                        Start Playing!
+                    <motion.button
+                        whileHover={{ scale: loading ? 1 : 1.05 }}
+                        whileTap={{ scale: loading ? 1 : 0.95 }}
+                        disabled={loading}
+                        className={`w-full py-3 rounded-lg font-semibold text-lg text-white ${loading ? "bg-gray-400" : "bg-purple-500 hover:bg-purple-600"}`}
+                    >
+                        {loading ? "Registering..." : "Start Playing!"}
                     </motion.button>
                 </form>
             </div>
