@@ -1,0 +1,802 @@
+[
+  {
+    "city": "Paris",
+    "country": "France",
+    "clues": [
+      "This city is home to a famous tower that sparkles every night.",
+      "Known as the 'City of Love' and a hub for fashion and art."
+    ],
+    "fun_fact": [
+      "The Eiffel Tower was supposed to be dismantled after 20 years but was saved because it was useful for radio transmissions!",
+      "Paris has only one stop sign in the entire city\u2014most intersections rely on priority-to-the-right rules."
+    ],
+    "trivia": [
+      "This city is famous for its croissants and macarons. Bon app\u00e9tit!",
+      "Paris was originally a Roman city called Lutetia."
+    ]
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "clues": [
+      "This city has the busiest pedestrian crossing in the world.",
+      "You can visit an entire district dedicated to anime, manga, and gaming."
+    ],
+    "fun_fact": [
+      "Tokyo was originally a small fishing village called Edo before becoming the bustling capital it is today!",
+      "More than 14 million people live in Tokyo, making it one of the most populous cities in the world."
+    ],
+    "trivia": [
+      "The city has over 160,000 restaurants, more than any other city in the world.",
+      "Tokyo\u2019s subway system is so efficient that train delays of just a few minutes come with formal apologies."
+    ]
+  },
+  {
+    "city": "New York",
+    "country": "USA",
+    "clues": [
+      "Home to a green statue gifted by France in the 1800s.",
+      "Nicknamed 'The Big Apple' and known for its Broadway theaters."
+    ],
+    "fun_fact": [
+      "The Statue of Liberty was originally a copper color before oxidizing to its iconic green patina.",
+      "Times Square was once called Longacre Square before being renamed in 1904."
+    ],
+    "trivia": [
+      "New York City has 468 subway stations, making it one of the most complex transit systems in the world.",
+      "The Empire State Building has its own zip code: 10118."
+    ]
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "clues": [
+      "This city has a famous clock tower that is often mistaken for its bell.",
+      "It has one of the oldest underground train systems in the world."
+    ],
+    "fun_fact": [
+      "Big Ben is actually the name of the bell, not the clock tower.",
+      "The London Underground is the world\u2019s first underground railway system."
+    ],
+    "trivia": [
+      "London has more Indian restaurants than Mumbai.",
+      "There is a species of mosquito that only lives in the London Underground."
+    ]
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "clues": [
+      "Famous for its opera house with a unique sail-like design.",
+      "Home to one of the world\u2019s most famous harbors."
+    ],
+    "fun_fact": [
+      "The Sydney Opera House took 14 years to build and was completed in 1973.",
+      "Sydney's beaches are home to over 100 species of sharks!"
+    ],
+    "trivia": [
+      "Sydney is not the capital of Australia, despite common belief.",
+      "Bondi Beach is one of the most famous beaches in the world."
+    ]
+  },
+  {
+    "city": "New York",
+    "country": "USA",
+    "clues": [
+      "Home to a green statue gifted by France in the 1800s.",
+      "Nicknamed 'The Big Apple' and known for its Broadway theaters."
+    ],
+    "fun_fact": [
+      "The Statue of Liberty was originally a copper color before oxidizing to its iconic green patina.",
+      "Times Square was once called Longacre Square before being renamed in 1904."
+    ],
+    "trivia": [
+      "New York City has 468 subway stations, making it one of the most complex transit systems in the world.",
+      "The Empire State Building has its own zip code: 10118."
+    ]
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "clues": [
+      "This city has a famous clock tower that is often mistaken for its bell.",
+      "It has one of the oldest underground train systems in the world."
+    ],
+    "fun_fact": [
+      "Big Ben is actually the name of the bell, not the clock tower.",
+      "The London Underground is the world\u2019s first underground railway system."
+    ],
+    "trivia": [
+      "London has more Indian restaurants than Mumbai.",
+      "There is a species of mosquito that only lives in the London Underground."
+    ]
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "clues": [
+      "Famous for its opera house with a unique sail-like design.",
+      "Home to one of the world\u2019s most famous harbors."
+    ],
+    "fun_fact": [
+      "The Sydney Opera House took 14 years to build and was completed in 1973.",
+      "Sydney's beaches are home to over 100 species of sharks!"
+    ],
+    "trivia": [
+      "Sydney is not the capital of Australia, despite common belief.",
+      "Bondi Beach is one of the most famous beaches in the world."
+    ]
+  },
+  {
+    "city": "New York",
+    "country": "USA",
+    "clues": [
+      "Home to a green statue gifted by France in the 1800s.",
+      "Nicknamed 'The Big Apple' and known for its Broadway theaters."
+    ],
+    "fun_fact": [
+      "The Statue of Liberty was originally a copper color before oxidizing to its iconic green patina.",
+      "Times Square was once called Longacre Square before being renamed in 1904."
+    ],
+    "trivia": [
+      "New York City has 468 subway stations, making it one of the most complex transit systems in the world.",
+      "The Empire State Building has its own zip code: 10118."
+    ]
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "clues": [
+      "This city has a famous clock tower that is often mistaken for its bell.",
+      "It has one of the oldest underground train systems in the world."
+    ],
+    "fun_fact": [
+      "Big Ben is actually the name of the bell, not the clock tower.",
+      "The London Underground is the world\u2019s first underground railway system."
+    ],
+    "trivia": [
+      "London has more Indian restaurants than Mumbai.",
+      "There is a species of mosquito that only lives in the London Underground."
+    ]
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "clues": [
+      "Famous for its opera house with a unique sail-like design.",
+      "Home to one of the world\u2019s most famous harbors."
+    ],
+    "fun_fact": [
+      "The Sydney Opera House took 14 years to build and was completed in 1973.",
+      "Sydney's beaches are home to over 100 species of sharks!"
+    ],
+    "trivia": [
+      "Sydney is not the capital of Australia, despite common belief.",
+      "Bondi Beach is one of the most famous beaches in the world."
+    ]
+  },
+  {
+    "city": "New York",
+    "country": "USA",
+    "clues": [
+      "Home to a green statue gifted by France in the 1800s.",
+      "Nicknamed 'The Big Apple' and known for its Broadway theaters."
+    ],
+    "fun_fact": [
+      "The Statue of Liberty was originally a copper color before oxidizing to its iconic green patina.",
+      "Times Square was once called Longacre Square before being renamed in 1904."
+    ],
+    "trivia": [
+      "New York City has 468 subway stations, making it one of the most complex transit systems in the world.",
+      "The Empire State Building has its own zip code: 10118."
+    ]
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "clues": [
+      "This city has a famous clock tower that is often mistaken for its bell.",
+      "It has one of the oldest underground train systems in the world."
+    ],
+    "fun_fact": [
+      "Big Ben is actually the name of the bell, not the clock tower.",
+      "The London Underground is the world\u2019s first underground railway system."
+    ],
+    "trivia": [
+      "London has more Indian restaurants than Mumbai.",
+      "There is a species of mosquito that only lives in the London Underground."
+    ]
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "clues": [
+      "Famous for its opera house with a unique sail-like design.",
+      "Home to one of the world\u2019s most famous harbors."
+    ],
+    "fun_fact": [
+      "The Sydney Opera House took 14 years to build and was completed in 1973.",
+      "Sydney's beaches are home to over 100 species of sharks!"
+    ],
+    "trivia": [
+      "Sydney is not the capital of Australia, despite common belief.",
+      "Bondi Beach is one of the most famous beaches in the world."
+    ]
+  },
+  {
+    "city": "New York",
+    "country": "USA",
+    "clues": [
+      "Home to a green statue gifted by France in the 1800s.",
+      "Nicknamed 'The Big Apple' and known for its Broadway theaters."
+    ],
+    "fun_fact": [
+      "The Statue of Liberty was originally a copper color before oxidizing to its iconic green patina.",
+      "Times Square was once called Longacre Square before being renamed in 1904."
+    ],
+    "trivia": [
+      "New York City has 468 subway stations, making it one of the most complex transit systems in the world.",
+      "The Empire State Building has its own zip code: 10118."
+    ]
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "clues": [
+      "This city has a famous clock tower that is often mistaken for its bell.",
+      "It has one of the oldest underground train systems in the world."
+    ],
+    "fun_fact": [
+      "Big Ben is actually the name of the bell, not the clock tower.",
+      "The London Underground is the world\u2019s first underground railway system."
+    ],
+    "trivia": [
+      "London has more Indian restaurants than Mumbai.",
+      "There is a species of mosquito that only lives in the London Underground."
+    ]
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "clues": [
+      "Famous for its opera house with a unique sail-like design.",
+      "Home to one of the world\u2019s most famous harbors."
+    ],
+    "fun_fact": [
+      "The Sydney Opera House took 14 years to build and was completed in 1973.",
+      "Sydney's beaches are home to over 100 species of sharks!"
+    ],
+    "trivia": [
+      "Sydney is not the capital of Australia, despite common belief.",
+      "Bondi Beach is one of the most famous beaches in the world."
+    ]
+  },
+  {
+    "city": "New York",
+    "country": "USA",
+    "clues": [
+      "Home to a green statue gifted by France in the 1800s.",
+      "Nicknamed 'The Big Apple' and known for its Broadway theaters."
+    ],
+    "fun_fact": [
+      "The Statue of Liberty was originally a copper color before oxidizing to its iconic green patina.",
+      "Times Square was once called Longacre Square before being renamed in 1904."
+    ],
+    "trivia": [
+      "New York City has 468 subway stations, making it one of the most complex transit systems in the world.",
+      "The Empire State Building has its own zip code: 10118."
+    ]
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "clues": [
+      "This city has a famous clock tower that is often mistaken for its bell.",
+      "It has one of the oldest underground train systems in the world."
+    ],
+    "fun_fact": [
+      "Big Ben is actually the name of the bell, not the clock tower.",
+      "The London Underground is the world\u2019s first underground railway system."
+    ],
+    "trivia": [
+      "London has more Indian restaurants than Mumbai.",
+      "There is a species of mosquito that only lives in the London Underground."
+    ]
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "clues": [
+      "Famous for its opera house with a unique sail-like design.",
+      "Home to one of the world\u2019s most famous harbors."
+    ],
+    "fun_fact": [
+      "The Sydney Opera House took 14 years to build and was completed in 1973.",
+      "Sydney's beaches are home to over 100 species of sharks!"
+    ],
+    "trivia": [
+      "Sydney is not the capital of Australia, despite common belief.",
+      "Bondi Beach is one of the most famous beaches in the world."
+    ]
+  },
+  {
+    "city": "New York",
+    "country": "USA",
+    "clues": [
+      "Home to a green statue gifted by France in the 1800s.",
+      "Nicknamed 'The Big Apple' and known for its Broadway theaters."
+    ],
+    "fun_fact": [
+      "The Statue of Liberty was originally a copper color before oxidizing to its iconic green patina.",
+      "Times Square was once called Longacre Square before being renamed in 1904."
+    ],
+    "trivia": [
+      "New York City has 468 subway stations, making it one of the most complex transit systems in the world.",
+      "The Empire State Building has its own zip code: 10118."
+    ]
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "clues": [
+      "This city has a famous clock tower that is often mistaken for its bell.",
+      "It has one of the oldest underground train systems in the world."
+    ],
+    "fun_fact": [
+      "Big Ben is actually the name of the bell, not the clock tower.",
+      "The London Underground is the world\u2019s first underground railway system."
+    ],
+    "trivia": [
+      "London has more Indian restaurants than Mumbai.",
+      "There is a species of mosquito that only lives in the London Underground."
+    ]
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "clues": [
+      "Famous for its opera house with a unique sail-like design.",
+      "Home to one of the world\u2019s most famous harbors."
+    ],
+    "fun_fact": [
+      "The Sydney Opera House took 14 years to build and was completed in 1973.",
+      "Sydney's beaches are home to over 100 species of sharks!"
+    ],
+    "trivia": [
+      "Sydney is not the capital of Australia, despite common belief.",
+      "Bondi Beach is one of the most famous beaches in the world."
+    ]
+  },
+  {
+    "city": "New York",
+    "country": "USA",
+    "clues": [
+      "Home to a green statue gifted by France in the 1800s.",
+      "Nicknamed 'The Big Apple' and known for its Broadway theaters."
+    ],
+    "fun_fact": [
+      "The Statue of Liberty was originally a copper color before oxidizing to its iconic green patina.",
+      "Times Square was once called Longacre Square before being renamed in 1904."
+    ],
+    "trivia": [
+      "New York City has 468 subway stations, making it one of the most complex transit systems in the world.",
+      "The Empire State Building has its own zip code: 10118."
+    ]
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "clues": [
+      "This city has a famous clock tower that is often mistaken for its bell.",
+      "It has one of the oldest underground train systems in the world."
+    ],
+    "fun_fact": [
+      "Big Ben is actually the name of the bell, not the clock tower.",
+      "The London Underground is the world\u2019s first underground railway system."
+    ],
+    "trivia": [
+      "London has more Indian restaurants than Mumbai.",
+      "There is a species of mosquito that only lives in the London Underground."
+    ]
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "clues": [
+      "Famous for its opera house with a unique sail-like design.",
+      "Home to one of the world\u2019s most famous harbors."
+    ],
+    "fun_fact": [
+      "The Sydney Opera House took 14 years to build and was completed in 1973.",
+      "Sydney's beaches are home to over 100 species of sharks!"
+    ],
+    "trivia": [
+      "Sydney is not the capital of Australia, despite common belief.",
+      "Bondi Beach is one of the most famous beaches in the world."
+    ]
+  },
+  {
+    "city": "New York",
+    "country": "USA",
+    "clues": [
+      "Home to a green statue gifted by France in the 1800s.",
+      "Nicknamed 'The Big Apple' and known for its Broadway theaters."
+    ],
+    "fun_fact": [
+      "The Statue of Liberty was originally a copper color before oxidizing to its iconic green patina.",
+      "Times Square was once called Longacre Square before being renamed in 1904."
+    ],
+    "trivia": [
+      "New York City has 468 subway stations, making it one of the most complex transit systems in the world.",
+      "The Empire State Building has its own zip code: 10118."
+    ]
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "clues": [
+      "This city has a famous clock tower that is often mistaken for its bell.",
+      "It has one of the oldest underground train systems in the world."
+    ],
+    "fun_fact": [
+      "Big Ben is actually the name of the bell, not the clock tower.",
+      "The London Underground is the world\u2019s first underground railway system."
+    ],
+    "trivia": [
+      "London has more Indian restaurants than Mumbai.",
+      "There is a species of mosquito that only lives in the London Underground."
+    ]
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "clues": [
+      "Famous for its opera house with a unique sail-like design.",
+      "Home to one of the world\u2019s most famous harbors."
+    ],
+    "fun_fact": [
+      "The Sydney Opera House took 14 years to build and was completed in 1973.",
+      "Sydney's beaches are home to over 100 species of sharks!"
+    ],
+    "trivia": [
+      "Sydney is not the capital of Australia, despite common belief.",
+      "Bondi Beach is one of the most famous beaches in the world."
+    ]
+  },
+  {
+    "city": "New York",
+    "country": "USA",
+    "clues": [
+      "Home to a green statue gifted by France in the 1800s.",
+      "Nicknamed 'The Big Apple' and known for its Broadway theaters."
+    ],
+    "fun_fact": [
+      "The Statue of Liberty was originally a copper color before oxidizing to its iconic green patina.",
+      "Times Square was once called Longacre Square before being renamed in 1904."
+    ],
+    "trivia": [
+      "New York City has 468 subway stations, making it one of the most complex transit systems in the world.",
+      "The Empire State Building has its own zip code: 10118."
+    ]
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "clues": [
+      "This city has a famous clock tower that is often mistaken for its bell.",
+      "It has one of the oldest underground train systems in the world."
+    ],
+    "fun_fact": [
+      "Big Ben is actually the name of the bell, not the clock tower.",
+      "The London Underground is the world\u2019s first underground railway system."
+    ],
+    "trivia": [
+      "London has more Indian restaurants than Mumbai.",
+      "There is a species of mosquito that only lives in the London Underground."
+    ]
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "clues": [
+      "Famous for its opera house with a unique sail-like design.",
+      "Home to one of the world\u2019s most famous harbors."
+    ],
+    "fun_fact": [
+      "The Sydney Opera House took 14 years to build and was completed in 1973.",
+      "Sydney's beaches are home to over 100 species of sharks!"
+    ],
+    "trivia": [
+      "Sydney is not the capital of Australia, despite common belief.",
+      "Bondi Beach is one of the most famous beaches in the world."
+    ]
+  },
+  {
+    "city": "New York",
+    "country": "USA",
+    "clues": [
+      "Home to a green statue gifted by France in the 1800s.",
+      "Nicknamed 'The Big Apple' and known for its Broadway theaters."
+    ],
+    "fun_fact": [
+      "The Statue of Liberty was originally a copper color before oxidizing to its iconic green patina.",
+      "Times Square was once called Longacre Square before being renamed in 1904."
+    ],
+    "trivia": [
+      "New York City has 468 subway stations, making it one of the most complex transit systems in the world.",
+      "The Empire State Building has its own zip code: 10118."
+    ]
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "clues": [
+      "This city has a famous clock tower that is often mistaken for its bell.",
+      "It has one of the oldest underground train systems in the world."
+    ],
+    "fun_fact": [
+      "Big Ben is actually the name of the bell, not the clock tower.",
+      "The London Underground is the world\u2019s first underground railway system."
+    ],
+    "trivia": [
+      "London has more Indian restaurants than Mumbai.",
+      "There is a species of mosquito that only lives in the London Underground."
+    ]
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "clues": [
+      "Famous for its opera house with a unique sail-like design.",
+      "Home to one of the world\u2019s most famous harbors."
+    ],
+    "fun_fact": [
+      "The Sydney Opera House took 14 years to build and was completed in 1973.",
+      "Sydney's beaches are home to over 100 species of sharks!"
+    ],
+    "trivia": [
+      "Sydney is not the capital of Australia, despite common belief.",
+      "Bondi Beach is one of the most famous beaches in the world."
+    ]
+  },
+  {
+    "city": "New York",
+    "country": "USA",
+    "clues": [
+      "Home to a green statue gifted by France in the 1800s.",
+      "Nicknamed 'The Big Apple' and known for its Broadway theaters."
+    ],
+    "fun_fact": [
+      "The Statue of Liberty was originally a copper color before oxidizing to its iconic green patina.",
+      "Times Square was once called Longacre Square before being renamed in 1904."
+    ],
+    "trivia": [
+      "New York City has 468 subway stations, making it one of the most complex transit systems in the world.",
+      "The Empire State Building has its own zip code: 10118."
+    ]
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "clues": [
+      "This city has a famous clock tower that is often mistaken for its bell.",
+      "It has one of the oldest underground train systems in the world."
+    ],
+    "fun_fact": [
+      "Big Ben is actually the name of the bell, not the clock tower.",
+      "The London Underground is the world\u2019s first underground railway system."
+    ],
+    "trivia": [
+      "London has more Indian restaurants than Mumbai.",
+      "There is a species of mosquito that only lives in the London Underground."
+    ]
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "clues": [
+      "Famous for its opera house with a unique sail-like design.",
+      "Home to one of the world\u2019s most famous harbors."
+    ],
+    "fun_fact": [
+      "The Sydney Opera House took 14 years to build and was completed in 1973.",
+      "Sydney's beaches are home to over 100 species of sharks!"
+    ],
+    "trivia": [
+      "Sydney is not the capital of Australia, despite common belief.",
+      "Bondi Beach is one of the most famous beaches in the world."
+    ]
+  },
+  {
+    "city": "New York",
+    "country": "USA",
+    "clues": [
+      "Home to a green statue gifted by France in the 1800s.",
+      "Nicknamed 'The Big Apple' and known for its Broadway theaters."
+    ],
+    "fun_fact": [
+      "The Statue of Liberty was originally a copper color before oxidizing to its iconic green patina.",
+      "Times Square was once called Longacre Square before being renamed in 1904."
+    ],
+    "trivia": [
+      "New York City has 468 subway stations, making it one of the most complex transit systems in the world.",
+      "The Empire State Building has its own zip code: 10118."
+    ]
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "clues": [
+      "This city has a famous clock tower that is often mistaken for its bell.",
+      "It has one of the oldest underground train systems in the world."
+    ],
+    "fun_fact": [
+      "Big Ben is actually the name of the bell, not the clock tower.",
+      "The London Underground is the world\u2019s first underground railway system."
+    ],
+    "trivia": [
+      "London has more Indian restaurants than Mumbai.",
+      "There is a species of mosquito that only lives in the London Underground."
+    ]
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "clues": [
+      "Famous for its opera house with a unique sail-like design.",
+      "Home to one of the world\u2019s most famous harbors."
+    ],
+    "fun_fact": [
+      "The Sydney Opera House took 14 years to build and was completed in 1973.",
+      "Sydney's beaches are home to over 100 species of sharks!"
+    ],
+    "trivia": [
+      "Sydney is not the capital of Australia, despite common belief.",
+      "Bondi Beach is one of the most famous beaches in the world."
+    ]
+  },
+  {
+    "city": "New York",
+    "country": "USA",
+    "clues": [
+      "Home to a green statue gifted by France in the 1800s.",
+      "Nicknamed 'The Big Apple' and known for its Broadway theaters."
+    ],
+    "fun_fact": [
+      "The Statue of Liberty was originally a copper color before oxidizing to its iconic green patina.",
+      "Times Square was once called Longacre Square before being renamed in 1904."
+    ],
+    "trivia": [
+      "New York City has 468 subway stations, making it one of the most complex transit systems in the world.",
+      "The Empire State Building has its own zip code: 10118."
+    ]
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "clues": [
+      "This city has a famous clock tower that is often mistaken for its bell.",
+      "It has one of the oldest underground train systems in the world."
+    ],
+    "fun_fact": [
+      "Big Ben is actually the name of the bell, not the clock tower.",
+      "The London Underground is the world\u2019s first underground railway system."
+    ],
+    "trivia": [
+      "London has more Indian restaurants than Mumbai.",
+      "There is a species of mosquito that only lives in the London Underground."
+    ]
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "clues": [
+      "Famous for its opera house with a unique sail-like design.",
+      "Home to one of the world\u2019s most famous harbors."
+    ],
+    "fun_fact": [
+      "The Sydney Opera House took 14 years to build and was completed in 1973.",
+      "Sydney's beaches are home to over 100 species of sharks!"
+    ],
+    "trivia": [
+      "Sydney is not the capital of Australia, despite common belief.",
+      "Bondi Beach is one of the most famous beaches in the world."
+    ]
+  },
+  {
+    "city": "New York",
+    "country": "USA",
+    "clues": [
+      "Home to a green statue gifted by France in the 1800s.",
+      "Nicknamed 'The Big Apple' and known for its Broadway theaters."
+    ],
+    "fun_fact": [
+      "The Statue of Liberty was originally a copper color before oxidizing to its iconic green patina.",
+      "Times Square was once called Longacre Square before being renamed in 1904."
+    ],
+    "trivia": [
+      "New York City has 468 subway stations, making it one of the most complex transit systems in the world.",
+      "The Empire State Building has its own zip code: 10118."
+    ]
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "clues": [
+      "This city has a famous clock tower that is often mistaken for its bell.",
+      "It has one of the oldest underground train systems in the world."
+    ],
+    "fun_fact": [
+      "Big Ben is actually the name of the bell, not the clock tower.",
+      "The London Underground is the world\u2019s first underground railway system."
+    ],
+    "trivia": [
+      "London has more Indian restaurants than Mumbai.",
+      "There is a species of mosquito that only lives in the London Underground."
+    ]
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "clues": [
+      "Famous for its opera house with a unique sail-like design.",
+      "Home to one of the world\u2019s most famous harbors."
+    ],
+    "fun_fact": [
+      "The Sydney Opera House took 14 years to build and was completed in 1973.",
+      "Sydney's beaches are home to over 100 species of sharks!"
+    ],
+    "trivia": [
+      "Sydney is not the capital of Australia, despite common belief.",
+      "Bondi Beach is one of the most famous beaches in the world."
+    ]
+  },
+  {
+    "city": "New York",
+    "country": "USA",
+    "clues": [
+      "Home to a green statue gifted by France in the 1800s.",
+      "Nicknamed 'The Big Apple' and known for its Broadway theaters."
+    ],
+    "fun_fact": [
+      "The Statue of Liberty was originally a copper color before oxidizing to its iconic green patina.",
+      "Times Square was once called Longacre Square before being renamed in 1904."
+    ],
+    "trivia": [
+      "New York City has 468 subway stations, making it one of the most complex transit systems in the world.",
+      "The Empire State Building has its own zip code: 10118."
+    ]
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "clues": [
+      "This city has a famous clock tower that is often mistaken for its bell.",
+      "It has one of the oldest underground train systems in the world."
+    ],
+    "fun_fact": [
+      "Big Ben is actually the name of the bell, not the clock tower.",
+      "The London Underground is the world\u2019s first underground railway system."
+    ],
+    "trivia": [
+      "London has more Indian restaurants than Mumbai.",
+      "There is a species of mosquito that only lives in the London Underground."
+    ]
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "clues": [
+      "Famous for its opera house with a unique sail-like design.",
+      "Home to one of the world\u2019s most famous harbors."
+    ],
+    "fun_fact": [
+      "The Sydney Opera House took 14 years to build and was completed in 1973.",
+      "Sydney's beaches are home to over 100 species of sharks!"
+    ],
+    "trivia": [
+      "Sydney is not the capital of Australia, despite common belief.",
+      "Bondi Beach is one of the most famous beaches in the world."
+    ]
+  }
+]
