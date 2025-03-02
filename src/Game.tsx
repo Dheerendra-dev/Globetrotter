@@ -14,7 +14,9 @@ interface City {
 }
 
 export default function CityTriviaGame(): React.ReactElement {
+    const API_BASE_URL = "https://globetrotter-game-4wkh.onrender.com/api";
     const [cities, setCities] = useState<City[]>([]);
+    const [loading, setLoading] = useState(false);
     const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null);
     const [choices, setChoices] = useState<string[]>([]);
     const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
@@ -40,8 +42,9 @@ export default function CityTriviaGame(): React.ReactElement {
     }, [score]);
 
     const fetchCities = async () => {
+        setLoading(true);
         try {
-            const response = await fetch("http://localhost:4000/api/cities");
+            const response = await fetch(`${API_BASE_URL}/cities`);
             const data = await response.json();
             if (data.success) {
                 setCities(data.cities);
@@ -49,31 +52,28 @@ export default function CityTriviaGame(): React.ReactElement {
             }
         } catch (error) {
             console.error("Error fetching cities:", error);
+        } finally {
+            setLoading(false);
         }
-    }
+    };
 
     const checkChallengerParam = async () => {
         const params = new URLSearchParams(window.location.search);
         const challengerName = params.get("challenger");
         if (challengerName) {
             try {
-                const response = await fetch(
-                    `http://localhost:4000/api/users/${challengerName}`
-                );
+                const response = await fetch(`${API_BASE_URL}/users/${challengerName}`);
                 const data = await response.json();
                 if (data.success) setChallenger(data.user);
             } catch (error) {
                 console.error("Error fetching challenger:", error);
             }
         }
-    }
+    };
 
-    const updateScore = async (newScore: {
-        correct: number;
-        incorrect: number;
-    }) => {
+    const updateScore = async (newScore: { correct: number; incorrect: number }) => {
         try {
-            await fetch(`http://localhost:4000/api/users/${username}`, {
+            await fetch(`${API_BASE_URL}/users/${username}`, {
                 method: "PATCH",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(newScore),
@@ -115,6 +115,7 @@ export default function CityTriviaGame(): React.ReactElement {
         setSelectedAnswer(null);
         setIsAnswerCorrect(null);
     };
+
     const shuffle = <T,>(array: T[]): T[] => {
         return [...array].sort(() => Math.random() - 0.5);
     };
@@ -137,17 +138,24 @@ export default function CityTriviaGame(): React.ReactElement {
 
     return (
         <div className="min-h-screen bg-gradient-to-b w-screen  from-blue-100 to-purple-100 p-6">
+            {loading && <p className="text-center text-lg font-semibold">Loading...</p>}
             {isAnswerCorrect && <Confetti recycle={false} numberOfPieces={400} />}
 
-            <div className="max-w-2xl mx-auto">
-                <ScoreBoard score={score} />
-
-                <Challenger challenger={challenger} />
-
-                <QuestionCard loadNewQuestion={loadNewQuestion} currentQuestion={currentQuestion} choices={choices} selectedAnswer={selectedAnswer} isAnswerCorrect={isAnswerCorrect} handleAnswerSelection={handleAnswerSelection} />
-
-                <ChallengeButton username={username} score={score} />
-            </div>
+            {!loading && (
+                <div className="max-w-2xl mx-auto">
+                    <ScoreBoard score={score} />
+                    <Challenger challenger={challenger} />
+                    <QuestionCard
+                        loadNewQuestion={loadNewQuestion}
+                        currentQuestion={currentQuestion}
+                        choices={choices}
+                        selectedAnswer={selectedAnswer}
+                        isAnswerCorrect={isAnswerCorrect}
+                        handleAnswerSelection={handleAnswerSelection}
+                    />
+                    <ChallengeButton username={username} score={score} />
+                </div>
+            )}
         </div>
     );
 }
