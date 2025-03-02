@@ -5,23 +5,12 @@ import ChallengeButton from "./ChallengeButton";
 import Challenger from "./Challenger";
 import ScoreBoard from "./ScoreBoard";
 import QuestionCard from "./QuestionCard";
-
-interface Question {
-    clue: string;
-    correctAnswer: string;
-    funFact: string;
-}
+import { Question, UserProfile } from "./type";
 
 interface City {
     city: string;
     clues: string[];
     fun_fact: string[];
-}
-
-interface UserProfile {
-    username: string;
-    correct: number;
-    incorrect: number;
 }
 
 export default function CityTriviaGame(): React.ReactElement {
@@ -46,11 +35,11 @@ export default function CityTriviaGame(): React.ReactElement {
 
     useEffect(() => {
         if (isRegistered) {
-            updateBackendScore(score);
+            updateScore(score);
         }
     }, [score]);
 
-    async function fetchCities() {
+    const fetchCities = async () => {
         try {
             const response = await fetch("http://localhost:4000/api/cities");
             const data = await response.json();
@@ -63,7 +52,7 @@ export default function CityTriviaGame(): React.ReactElement {
         }
     }
 
-    async function checkChallengerParam() {
+    const checkChallengerParam = async () => {
         const params = new URLSearchParams(window.location.search);
         const challengerName = params.get("challenger");
         if (challengerName) {
@@ -79,10 +68,10 @@ export default function CityTriviaGame(): React.ReactElement {
         }
     }
 
-    async function updateBackendScore(newScore: {
+    const updateScore = async (newScore: {
         correct: number;
         incorrect: number;
-    }) {
+    }) => {
         try {
             await fetch(`http://localhost:4000/api/users/${username}`, {
                 method: "PATCH",
@@ -92,9 +81,9 @@ export default function CityTriviaGame(): React.ReactElement {
         } catch (error) {
             console.error("Score sync failed:", error);
         }
-    }
+    };
 
-    function loadNewQuestion(citiesData: City[] = cities) {
+    const loadNewQuestion = (citiesData: City[] = cities) => {
         let availableCities = citiesData.filter((c) => !askedQuestions.has(c.city));
         if (availableCities.length === 0) {
             setAskedQuestions(new Set());
@@ -125,12 +114,12 @@ export default function CityTriviaGame(): React.ReactElement {
         setChoices(newChoices);
         setSelectedAnswer(null);
         setIsAnswerCorrect(null);
-    }
-    function shuffle<T>(array: T[]): T[] {
+    };
+    const shuffle = <T,>(array: T[]): T[] => {
         return [...array].sort(() => Math.random() - 0.5);
-    }
+    };
 
-    function handleAnswerSelection(answer: string) {
+    const handleAnswerSelection = (answer: string) => {
         setSelectedAnswer(answer);
         const correct = answer === currentQuestion?.correctAnswer;
         setIsAnswerCorrect(correct);
@@ -138,7 +127,7 @@ export default function CityTriviaGame(): React.ReactElement {
             correct: correct ? prev.correct + 1 : prev.correct,
             incorrect: !correct ? prev.incorrect + 1 : prev.incorrect
         }));
-    }
+    };
 
     if (!isRegistered) {
         return (

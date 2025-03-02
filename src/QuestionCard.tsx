@@ -1,8 +1,11 @@
 
 import { motion } from "framer-motion";
+import { Question } from "./type";
+
+
 
 interface QuestionCardProps {
-    currentQuestion: any;
+    currentQuestion: Question | null;
     choices: string[];
     selectedAnswer: string | null;
     isAnswerCorrect: boolean | null;

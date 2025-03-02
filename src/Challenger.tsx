@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
+import { UserProfile } from "./type";
 
-const Challenger = ({ challenger }: { challenger: any }) => {
+const Challenger = ({ challenger }: { challenger: UserProfile | null }) => {
     return (
         <div>
             {challenger && (
