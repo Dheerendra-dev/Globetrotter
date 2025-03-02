@@ -1,6 +1,6 @@
 
 import { motion } from "framer-motion";
-import { Question } from "./type";
+import { Question } from "../type";
 
 
 

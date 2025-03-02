@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import Confetti from "react-confetti";
-import Register from "./Register";
-import ChallengeButton from "./ChallengeButton";
-import Challenger from "./Challenger";
-import ScoreBoard from "./ScoreBoard";
-import QuestionCard from "./QuestionCard";
+import Register from "./components/Register";
+import ChallengeButton from "./components/ChallengeButton";
+import Challenger from "./components/Challenger";
+import ScoreBoard from "./components/ScoreBoard";
+import QuestionCard from "./components/QuestionCard";
 import { Question, UserProfile } from "./type";
 
 interface City {

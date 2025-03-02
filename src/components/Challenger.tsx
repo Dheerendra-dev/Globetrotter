@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { UserProfile } from "./type";
+import { UserProfile } from "../type";
 
 const Challenger = ({ challenger }: { challenger: UserProfile | null }) => {
     return (
